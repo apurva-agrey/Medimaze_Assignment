@@ -27,6 +27,6 @@ Follow these steps to run the project on your local system:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/apurva-agrey/spine-labelling-tool.git
+git clone https://github.com/apurva-agrey/Medimaze_Assignment.git
 cd spine-labelling-tool
 

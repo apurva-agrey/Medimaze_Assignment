@@ -17,7 +17,7 @@ This project is a web-based DICOM viewer that allows users to label vertebrae (C
 
 - React.js (Functional components + Hooks)
 - Cornerstone.js (DICOM rendering)
-- Bootstrap / Custom CSS
+- Bootstrap / Custom CSS / Reactsrtap
 - JSON export functionality
 
 ## 🚀 How to Run Locally

@@ -36,3 +36,68 @@
     transform: rotate(360deg);
   }
 }
+
+.app-background {
+  background-image: url('./images/bg-img.png');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.translucent-overlay {
+  background-color: rgba(255, 255, 255, 0.823);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.main-card {
+  width: 80vw;
+  max-height: 90vh;
+  overflow-y: auto;
+  border: none;
+}
+.viewer-container {
+  width: 100%;
+  height: 500px;
+  max-height: 60vh;
+  border: 1px solid gray;
+  position: relative;
+  cursor: crosshair;
+  user-select: none;
+  overflow: hidden;
+}
+
+
+
+@media (max-width: 768px) {
+  .main-card {
+    width: 95vw;
+    max-height: 95vh;
+    padding: 10px;
+  }
+
+  .translucent-overlay {
+    padding: 10px;
+  }
+
+  .App-header {
+    font-size: calc(8px + 2vmin);
+  }
+
+  .form-control,
+  .form-select,
+  .btn {
+    max-width: 100% !important;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .mb-3.d-flex {
+    flex-direction: column;
+    align-items: stretch !important;
+  }
+}
